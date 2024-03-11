@@ -29,5 +29,34 @@ public class IfTest {
 		}else {
 			System.out.println("점심값이 합리적이군요");
 		}
+		
+		// String if
+		System.out.println("-------------<String if >----------");
+		String s = "과일";
+		if (s.equals("과일")) {
+			System.out.println("dessert");
+		}else {
+			System.out.println("main dish");
+		}
+		
+		if (s == "과일") {
+			System.out.println("dessert");
+		}else {
+			System.out.println("main dish");
+		}
+		
+		String s2 = new String("과일");
+		System.out.println("s: " + s + ", " + "s2: " + s2);
+		if(s == s2) {
+			System.out.println("s == s2");
+		}else {
+			System.out.println("s != s2");
+		}
+		
+		if(s.equals(s2)) {
+			System.out.println("s.equals(s2)");
+		}else {
+			System.out.println("not s.equals(s2)");
+		}
 	}
 }
