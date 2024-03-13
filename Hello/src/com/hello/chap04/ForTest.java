@@ -20,6 +20,5 @@ public class ForTest {
 			sum += k;
 		}
 		System.out.println("1~100 까지 홀수의 합: " + sum);
-		
 	}
 }
