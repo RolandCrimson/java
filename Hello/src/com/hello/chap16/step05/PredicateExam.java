@@ -1,6 +1,5 @@
 package com.hello.chap16.step05;
 
-import java.util.Arrays;
 import java.util.List;
 import java.util.function.Predicate;
 
