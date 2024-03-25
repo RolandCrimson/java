@@ -1,0 +1,6 @@
+package com.hello.chap18.part05;
+
+public enum Month {
+	JANUARY, FEBRUARY, MARCH, APRIL, MAY, JUNE, JULY,
+	AUGUST, SEPTEMBER, OCTOBER,	NOVEMBER, DECEMBER;
+}
