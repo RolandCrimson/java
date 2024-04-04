@@ -31,8 +31,5 @@ public class Exam01 {
 		default:
 			System.out.println("It's Sunday.");
 		}
-		
-		// 코드가 단순해지고 가독성이 좋아짐
-		// 인스턴스 생성과 상속을 방지(생성자가 private 임)
 	}
 }
